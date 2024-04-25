@@ -20,7 +20,8 @@ header {
   font-size: clamp(1rem, 1rem + 3vw, 3rem);
 }
 .content p {
-  font-size: clamp(0.5rem, 1.25rem + 2vw, 2rem);
+text-align: justify;
+  font-size: clamp(0.5rem, 1.25rem + 1vw, 3rem);
 }
 .logo {
   width: 50vw;
@@ -37,9 +38,8 @@ header {
 /* Media Queries */
 
 @media screen and (width >= 576px) {
-  header{
+  header {
     height: 100svh;
-  
   }
   .content {
     height: 25svh;
@@ -48,5 +48,20 @@ header {
     width: 35svw;
   }
 }
-
+@media screen and (width > 999px) {
+  header {
+    min-height: 100svh;
+  }
+  .content {
+    height: 10svh;
+    justify-content: center;
+    gap: 3rem;
+    translate: 0 -5rem;
+  }
+  .logo {
+    width: 20svw;
+    translate: 0 -10rem;
+    cursor: pointer;
+  }
+}
 /* Styles for screens up to 480px wide */
