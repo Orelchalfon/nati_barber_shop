@@ -1,24 +1,25 @@
 .carousel {
   display: flex;
-  max-width: 1000px; /* Limit max width for larger screens */
+  height: 70%;
+  max-width: 1000px;
   margin: 40px auto;
   overflow-x: hidden;
 
   position: relative;
 
   gap: 1rem;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle depth */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Subtle depth */
   border-radius: 8px;
 }
 
 .carousel-image {
   width: 100%;
-  aspect-ratio: 1; /* Maintain 16:9 aspect ratio */
-  object-fit: cover; /* Maintain image aspect ratio on resize */
+  aspect-ratio: 16/9;
+  object-fit: fill;
   transition: transform 0.4s ease-in-out;
 }
 
-.prev-button,
+/* .prev-button,
 .next-button {
   position: absolute;
   top: 50%;
@@ -29,7 +30,7 @@
   padding: 12px 16px;
   border-radius: 4px;
   font-size: 18px;
-  opacity: 0.7; /* Appear on hover */
+  opacity: 0.7; /* Appear on hover 
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -44,4 +45,4 @@
 }
 .next-button {
   right: 15px;
-}
+} */

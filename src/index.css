@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  min-height: 300svh;
+  min-height: 230svh;
 
   display: grid;
   grid-template-areas:

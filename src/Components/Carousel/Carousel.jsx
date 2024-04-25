@@ -19,10 +19,10 @@ const Carousel = ({ images }) =>
   {
     timeoutRef.current = setTimeout(next, 3000);
     return () => clearTimeout(timeoutRef.current);
-  }, [currentImage, next]);
+  }, [timeoutRef.current]);
 
   return (
-    <div className="carousel">
+    <div className="carousel" ref={timeoutRef}>
       <AnimatePresence initial={false}  >
         <motion.img
           key={currentImage}

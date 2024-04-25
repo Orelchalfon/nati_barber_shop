@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import './App.css'
-import { Logo2, proj1, proj2, proj3, proj4, proj5, proj6, proj7, proj8, proj9, proj10, proj11, proj12, proj13 } from './assets/images'
-
+import { proj1, proj2, proj3, proj4, proj5, proj6, proj7, proj8, proj9, proj10, proj11, proj12, proj13 } from './assets/images'
+import noneBgLogo from './assets/images/noneBgLogo.png'
 import Carousel from './Components/Carousel/Carousel'
 
 
@@ -36,7 +36,7 @@ function App()
             whileHover={{ scale: [1.1, 1, 1.1, 1] }}
 
 
-            src={Logo2} alt="Logo2" className="logo" />
+            src={noneBgLogo} alt="Logo2" className="logo" />
           <div className="content">
             <motion.h1
 

@@ -6,10 +6,15 @@
 }
 header {
   height: 100svh;
+  padding: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   font-size: clamp(0.5rem, 2vw, 1rem);
 }
 .content {
-  margin-top: -6.5rem;
   height: 40svh;
   display: flex;
   flex-direction: column;
@@ -20,13 +25,11 @@ header {
   font-size: clamp(1rem, 1rem + 3vw, 3rem);
 }
 .content p {
-text-align: justify;
+  text-align: justify;
   font-size: clamp(0.5rem, 1.25rem + 1vw, 3rem);
 }
 .logo {
   width: 50vw;
-  aspect-ratio: 1/2;
-  mix-blend-mode: multiply;
 }
 .container {
   height: 100vh;
