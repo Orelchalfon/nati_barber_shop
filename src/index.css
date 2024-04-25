@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  min-height: 230svh;
+  min-height: 200svh;
 
   display: grid;
   grid-template-areas:
@@ -30,3 +30,12 @@ body {
   background-color: #f8f8f8;
   background-color: rgba(51, 51, 51, 0.1);
 }
+
+/* @media screen and (min-width: 1000px) {
+  body {
+   
+
+    
+
+  }
+} */
