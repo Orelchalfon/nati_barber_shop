@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import noneBgLogo from '../assets/images/noneBgLogo.png'
+import noneBgLogo from '../../assets/images/noneBgLogo.png'
 const HeaderSection = () =>
 {
     return (

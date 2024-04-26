@@ -1,0 +1,69 @@
+.footer-section {
+  height: 40svh; /* Example height - adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; /* Adjust if needed */
+  padding-bottom: 1rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Responsive columns */
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.footer-column p {
+  font-size: 1.8rem;
+  color: #333;
+}
+.follow-us {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.instagram-icon {
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  ); /* Adjust colors and angle */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.copyright {
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.google-icon {
+  background-image: linear-gradient(
+    45deg,
+    #4285f4,
+    #34a853,
+    #fbbc05,
+    #ea4335
+  ); /* Customize colors and angle */
+  font-family: "Material Icons";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 5rem;
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

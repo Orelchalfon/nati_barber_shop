@@ -1,5 +1,5 @@
-import Carousel from '../Components/Carousel/Carousel'
-import { images } from "../utils/Consts"
+import Carousel from '../../Components/Carousel/Carousel'
+import { images } from "../../utils/Consts"
 
 const CarouselSection = () =>
 {

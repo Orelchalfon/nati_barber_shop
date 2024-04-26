@@ -39,50 +39,6 @@ header {
   padding-top: 1.6rem;
   gap: 2.6rem;
 }
-.footer-section {
-  height: 40svh; /* Example height - adjust as needed */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  text-align: center; /* Adjust if needed */
-}
-
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(250px, 1fr)
-  ); /* Responsive columns */
-  gap: 20px;
-}
-
-.footer-column h3 {
-  margin-bottom: 10px;
-}
-.footer-column p {
-  font-size: 1.8rem;
-  color: #333;
-}
-.follow-us {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-.instagram-icon {
-  background: linear-gradient(
-    45deg,
-    #feda75,
-    #fa7e1e,
-    #d62976,
-    #962fbf,
-    #4f5bd5
-  ); /* Adjust colors and angle */
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 /* Media Queries */
 
 @media screen and (width >= 576px) {

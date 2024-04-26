@@ -1,8 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faFacebookF, faInstagram, faTiktok, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import
+  {
+    faFacebookF,
+    faGoogle,
+    faInstagram, faTiktok, faWhatsapp
+  } from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-
+import './Footer.css';
 
 
 
@@ -19,13 +24,18 @@ const FooterSection = () =>
         <div className="footer-column">
           <h3>צור קשר</h3>
           <p>💈<b>Nati Barber Shop</b>💈</p>
-          <p><a
+          <div className="contact">
+            <a
+              href="tel:0528064655"
+            >
+              <FontAwesomeIcon icon={faPhone} size={"2xl"} />
+            </a>
+            <a href="mailto:natinathaniel556@gmail.com"
+              className='google-icon'
+            >g
+            </a>
+          </div>
 
-            href="tel:0528064655"
-          >
-            <FontAwesomeIcon icon={faPhone} color='blue' size={"2xl"} />
-          </a></p>
-          <p>{`כתובת דוא"ל`}</p>
         </div>
 
         {/* Column 2: Opening Hours (Optional) */}
@@ -53,6 +63,7 @@ const FooterSection = () =>
             <a href="https://wa.me/972528064655" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} color='green' size={"2xl"} />
             </a>
+
 
             {/* Add other icons as needed */}
           </div>
